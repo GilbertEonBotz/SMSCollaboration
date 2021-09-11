@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\EonBotz\\Desktop\\Gilbert\\9.11.7\\SmsVersion1\\EonBotzLibrary\\EonBotzLibrary\\EonBotzLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\EonBotz\\Desktop\\Gilbert\\9.11.7\\SmsVersion1\\EonBotzLibrary\\EonBotzLibrary\\EonBotzLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\9.11.7\\SmsVersion1\\EonBotzLibrary\\EonBotzLibrary\\EonBotzLibrary.csproj",
+        "projectName": "EonBotzLibrary",
+        "projectPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\9.11.7\\SmsVersion1\\EonBotzLibrary\\EonBotzLibrary\\EonBotzLibrary.csproj",
+        "packagesPath": "C:\\Users\\EonBotz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\9.11.7\\SmsVersion1\\EonBotzLibrary\\EonBotzLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EonBotz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "SqlKata": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "SqlKata.Execution": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

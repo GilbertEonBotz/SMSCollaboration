@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "dfbqFxfAb9qE0NGJ0cyQK9ieXvN4yjTRGr0hMwYraWH9XaxanymVFiAIG630NDrDNP6bGncmWTAStzVLdUqWhA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\9.11.7\\SmsVersion1\\EonBotzLibrary\\EonBotzLibrary\\EonBotzLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EonBotz\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\k4os.compression.lz4.streams\\1.1.11\\k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\mysql.data\\8.0.25\\mysql.data.8.0.25.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\sqlkata\\2.3.2\\sqlkata.2.3.2.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\sqlkata.execution\\2.3.2\\sqlkata.execution.2.3.2.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\EonBotz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,102 @@
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\EonBotzLibrary.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\EonBotzLibrary.pdb
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\BouncyCastle.Crypto.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Dapper.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Google.Protobuf.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Humanizer.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Compression.LZ4.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Compression.LZ4.Streams.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Hash.xxHash.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\MySql.Data.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Ubiety.Dns.Core.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Zstandard.Net.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\SqlKata.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\SqlKata.Execution.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Buffers.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Memory.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Numerics.Vectors.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.AssemblyReference.cache
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.AssemblyInfoInputs.cache
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.AssemblyInfo.cs
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.CopyComplete
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.dll
+C:\Users\chevy\Desktop\Randel\Randel\Randel\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.pdb
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\EonBotzLibrary.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\EonBotzLibrary.pdb
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\BouncyCastle.Crypto.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Dapper.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Google.Protobuf.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Humanizer.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Compression.LZ4.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Compression.LZ4.Streams.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Hash.xxHash.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\MySql.Data.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Ubiety.Dns.Core.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Zstandard.Net.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\SqlKata.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\SqlKata.Execution.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Buffers.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Memory.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Numerics.Vectors.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.AssemblyReference.cache
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.AssemblyInfoInputs.cache
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.AssemblyInfo.cs
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.CopyComplete
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.dll
+C:\Users\chevy\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.pdb
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\EonBotzLibrary.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\EonBotzLibrary.pdb
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\BouncyCastle.Crypto.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Dapper.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Google.Protobuf.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Humanizer.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Compression.LZ4.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Compression.LZ4.Streams.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Hash.xxHash.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\MySql.Data.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Ubiety.Dns.Core.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Zstandard.Net.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\SqlKata.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\SqlKata.Execution.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Buffers.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Memory.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Numerics.Vectors.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.AssemblyReference.cache
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.AssemblyInfoInputs.cache
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.AssemblyInfo.cs
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.CopyComplete
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.dll
+C:\Users\Eonbotz Randel\Desktop\Randel\demo\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.pdb
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\EonBotzLibrary.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\EonBotzLibrary.pdb
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\BouncyCastle.Crypto.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Dapper.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Google.Protobuf.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Humanizer.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Compression.LZ4.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Compression.LZ4.Streams.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\K4os.Hash.xxHash.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\MySql.Data.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Ubiety.Dns.Core.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\Zstandard.Net.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\SqlKata.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\SqlKata.Execution.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Buffers.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Memory.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Numerics.Vectors.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\bin\Release\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.AssemblyReference.cache
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.AssemblyInfoInputs.cache
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.AssemblyInfo.cs
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.CoreCompileInputs.cache
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.csproj.CopyComplete
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.dll
+C:\Users\EonBotz\Desktop\Gilbert\9.11.7\SmsVersion1\EonBotzLibrary\EonBotzLibrary\obj\Release\net48\EonBotzLibrary.pdb
