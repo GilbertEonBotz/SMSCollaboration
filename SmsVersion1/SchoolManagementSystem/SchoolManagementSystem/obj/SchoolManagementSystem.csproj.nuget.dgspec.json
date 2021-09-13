@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
+    "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
   },
   "projects": {
-    "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {
+    "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
         "projectName": "SchoolManagementSystem",
-        "projectPath": "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+        "projectPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
         "packagesPath": "C:\\Users\\EonBotz\\.nuget\\packages\\",
-        "outputPath": "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EonBotz\\AppData\\Roaming\\NuGet\\NuGet.Config",

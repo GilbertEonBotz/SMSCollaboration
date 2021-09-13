@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxGC7jMTjBk4HLrGsKf7z35Pm3o/eo0C1Uw1I4m10louKA2vDYWzA7sdiTwjTutJFQOGP1xg9BN6dQo43vyX0w==",
+  "dgSpecHash": "1xuayjc9gA6TGXISVIbnw+9VNT7ptPvFuu3I7XU50RMBof+exQqXexp3TaPgenUJ2gYgeWAjy7bg+94/AgbiXw==",
   "success": true,
-  "projectFilePath": "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EonBotz\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
     "C:\\Users\\EonBotz\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
