@@ -34,7 +34,7 @@ namespace SchoolManagementSystem
         private void btnAddCourse_Click(object sender, EventArgs e)
         {
             TextBox[] inputs = { txtDescription, txtAbbreviation };
-            ComboBox[] cmb = { cmbDepartment };
+            //ComboBox[] cmb = { cmbDepartment };
 
             if (btnSave.Text.Equals("Update"))
             {
@@ -45,12 +45,12 @@ namespace SchoolManagementSystem
                     {
                         if (value.courseId.Equals(Convert.ToInt32(idd)) && value.abbreviation.Equals(txtAbbreviation.Text) && value.description.Equals(txtAbbreviation.Text))
                         {
-                            var getId = DBContext.GetContext().Query("department").Where("deptName", cmbDepartment.Text.ToUpper()).First();
+                           // var getId = DBContext.GetContext().Query("department").Where("deptName", cmbDepartment.Text.ToUpper()).First();
                             DBContext.GetContext().Query("course").Where("courseId", idd).Update(new
                             {
                                 description = Validator.ToTitleCase(txtDescription.Text.Trim()),
                                 abbreviation = txtAbbreviation.Text.Trim().ToUpper(),
-                                deptID = getId.deptID,
+                                //deptID = getId.deptID,
                             });
                             reloadDatagrid.displayData();
                             this.Close();
@@ -67,12 +67,12 @@ namespace SchoolManagementSystem
                         }
                     }
                 }
-                var getsId = DBContext.GetContext().Query("department").Where("deptName", cmbDepartment.Text.ToUpper()).First();
+                //var getsId = DBContext.GetContext().Query("department").Where("deptName", cmbDepartment.Text.ToUpper()).First();
                 DBContext.GetContext().Query("course").Where("courseId", idd).Update(new
                 {
                     description = Validator.ToTitleCase(txtDescription.Text.Trim()),
                     abbreviation = txtAbbreviation.Text.Trim().ToUpper(),
-                    deptID = getsId.deptID,
+                   // deptID = getsId.deptID,
 
                 });
                 reloadDatagrid.displayData();
@@ -80,7 +80,7 @@ namespace SchoolManagementSystem
             }
             else if (btnSave.Text.Equals("Save"))
             {
-                if (Validator.isEmptyCmb(cmb) && Validator.isEmpty(inputs) && Validator.AddConfirmation())
+                if ( Validator.isEmpty(inputs) && Validator.AddConfirmation())
                 {
 
                     try
@@ -90,18 +90,18 @@ namespace SchoolManagementSystem
                     }
                     catch (Exception)
                     {
-                        var value = DBContext.GetContext().Query("department").Where("deptName", cmbDepartment.Text).First();
+                        //var value = DBContext.GetContext().Query("department").Where("deptName", cmbDepartment.Text).First();
 
-                      
-                        
-                            DBContext.GetContext().Query("course").Insert(new
-                            {
-                                description = Validator.ToTitleCase(txtDescription.Text.Trim()),
-                                abbreviation = txtAbbreviation.Text.Trim().ToUpper(),
-                                deptID = value.deptID,
-                                status = "enable"
-                            });
-                            reloadDatagrid.displayData();
+
+
+                        DBContext.GetContext().Query("course").Insert(new
+                        {
+                            description = Validator.ToTitleCase(txtDescription.Text.Trim()),
+                            abbreviation = txtAbbreviation.Text.Trim().ToUpper(),
+                            //deptID = value.deptID,
+                            status = "enable"
+                        });
+                        reloadDatagrid.displayData();
                             this.Close();
                         
 
@@ -151,6 +151,11 @@ namespace SchoolManagementSystem
         private void cmbDepartment_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

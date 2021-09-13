@@ -440,5 +440,10 @@ namespace SchoolManagementSystem
         {
 
         }
+
+        private void pnlShow_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

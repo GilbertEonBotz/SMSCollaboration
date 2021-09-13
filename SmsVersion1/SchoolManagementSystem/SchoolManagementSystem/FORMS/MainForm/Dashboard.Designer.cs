@@ -48,6 +48,10 @@ namespace SchoolManagementSystem
             this.label11 = new System.Windows.Forms.Label();
             this.lblAccountant = new System.Windows.Forms.Label();
             this.pnlShow = new System.Windows.Forms.Panel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -276,12 +280,50 @@ namespace SchoolManagementSystem
             // 
             // pnlShow
             // 
-            this.pnlShow.Location = new System.Drawing.Point(11, 271);
+            this.pnlShow.Location = new System.Drawing.Point(35, 621);
             this.pnlShow.Name = "pnlShow";
             this.pnlShow.Size = new System.Drawing.Size(799, 315);
             this.pnlShow.TabIndex = 13;
             this.pnlShow.Visible = false;
             this.pnlShow.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.HorizontalScrollbar = true;
+            this.listBox1.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.listBox1.Location = new System.Drawing.Point(29, 287);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(628, 290);
+            this.listBox1.TabIndex = 0;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(52, 339);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(164, 13);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Student 1 has been ENROLLED!";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(52, 363);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(157, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Student 2 already paid MidTerm";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(52, 385);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(233, 13);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Student 3 already paid Down Payment 1000php";
             // 
             // Dashboard
             // 
@@ -289,6 +331,10 @@ namespace SchoolManagementSystem
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1108, 650);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.pnlShow);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
@@ -309,6 +355,7 @@ namespace SchoolManagementSystem
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -333,5 +380,9 @@ namespace SchoolManagementSystem
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label lblAccountant;
         private System.Windows.Forms.Panel pnlShow;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label9;
     }
 }
