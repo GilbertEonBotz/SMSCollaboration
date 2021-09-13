@@ -1,32 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "1xuayjc9gA6TGXISVIbnw+9VNT7ptPvFuu3I7XU50RMBof+exQqXexp3TaPgenUJ2gYgeWAjy7bg+94/AgbiXw==",
+  "dgSpecHash": "v2dm4hdjEGvitEqNJFhiZ+w6MJ7gPGL9z4O5PfTqoL9+0dlfimeXCLNe7CdZ0Q6OcrlDVm8SurgqnCmI1aGqiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "1xuayjc9gA6TGXISVIbnw+9VNT7ptPvFuu3I7XU50RMBof+exQqXexp3TaPgenUJ2gYgeWAjy7bg+94/AgbiXw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "1xuayjc9gA6TGXISVIbnw+9VNT7ptPvFuu3I7XU50RMBof+exQqXexp3TaPgenUJ2gYgeWAjy7bg+94/AgbiXw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "1xuayjc9gA6TGXISVIbnw+9VNT7ptPvFuu3I7XU50RMBof+exQqXexp3TaPgenUJ2gYgeWAjy7bg+94/AgbiXw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-=======
-  "dgSpecHash": "PfARHQ50zRSabvZJraRHfDU+Jt3XO8CcS6eWOqBaODzpyN4XQqQaX+GOhuLEnp7Tw1NxXnMOrArhjub2r2nqfg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
->>>>>>> origin/Randel
->>>>>>> c973bce2313084d8df1760d748fdf99627c0666a
->>>>>>> d3df07b4a53b04882067366caa5f6d664846e988
->>>>>>> 0203963141c24e8a5f4128c61a5814d5e3411404
+  "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\NewCollaboration\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EonBotz\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
     "C:\\Users\\EonBotz\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
@@ -53,7 +29,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\EonBotz\\Desktop\\Gilbert\\NewCollaboration\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     },
     {
       "code": "NU1603",
