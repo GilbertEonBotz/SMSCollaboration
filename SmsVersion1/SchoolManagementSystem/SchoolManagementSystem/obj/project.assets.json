@@ -1239,11 +1239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\NewCollaboration\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
       "projectName": "SchoolManagementSystem",
-      "projectPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+      "projectPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\NewCollaboration\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
       "packagesPath": "C:\\Users\\EonBotz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\NewCollaboration\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EonBotz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1311,7 +1311,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\EonBotz\\Desktop\\Gilbert\\NewCollaboration\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     },
     {
       "code": "NU1603",
