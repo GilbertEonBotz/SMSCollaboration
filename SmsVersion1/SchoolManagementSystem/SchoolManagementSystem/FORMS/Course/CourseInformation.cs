@@ -63,13 +63,12 @@ namespace SchoolManagementSystem
                 idd = dgvCourse.Rows[dgvCourse.CurrentRow.Index].Cells[0].Value.ToString();
 
                 var value = DBContext.GetContext().Query("course")
-                    .Join("department", "department.deptID", "course.deptID")
                     .Where("courseId", idd)
                     .First();
 
                 var myfrm = new AddCourse(this, idd);
 
-                myfrm.cmbDepartment.Text = value.deptName;
+                //myfrm.cmbDepartment.Text = value.deptName;
                 myfrm.txtDescription.Text = value.description;
                 myfrm.txtAbbreviation.Text = value.abbreviation;
 
