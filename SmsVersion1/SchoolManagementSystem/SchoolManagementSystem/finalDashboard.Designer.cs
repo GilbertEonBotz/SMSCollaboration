@@ -29,6 +29,7 @@ namespace SchoolManagementSystem
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(finalDashboard));
             this.pnlStretchs = new System.Windows.Forms.Panel();
             this.pnlBanner = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
@@ -63,7 +64,6 @@ namespace SchoolManagementSystem
             this.btnExamPercentage = new FontAwesome.Sharp.IconButton();
             this.btnCourseCode = new FontAwesome.Sharp.IconButton();
             this.btnCourse = new FontAwesome.Sharp.IconButton();
-            this.btnTerm = new FontAwesome.Sharp.IconButton();
             this.btnDepartment = new FontAwesome.Sharp.IconButton();
             this.btnEmployees = new FontAwesome.Sharp.IconButton();
             this.pnlUser = new System.Windows.Forms.Panel();
@@ -77,6 +77,7 @@ namespace SchoolManagementSystem
             this.label1 = new System.Windows.Forms.Label();
             this.btnAdmin = new FontAwesome.Sharp.IconButton();
             this.pnlShow = new System.Windows.Forms.Panel();
+            this.btnTerm = new FontAwesome.Sharp.IconButton();
             this.pnlStretchs.SuspendLayout();
             this.pnlBanner.SuspendLayout();
             this.pnlLoads.SuspendLayout();
@@ -715,13 +716,13 @@ namespace SchoolManagementSystem
             // 
             // pnlEmployees
             // 
-            this.pnlEmployees.BackColor = System.Drawing.Color.Red;
+            this.pnlEmployees.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(34)))), ((int)(((byte)(49)))));
+            this.pnlEmployees.Controls.Add(this.btnTerm);
             this.pnlEmployees.Controls.Add(this.btnOrNumber);
             this.pnlEmployees.Controls.Add(this.iconButton2);
             this.pnlEmployees.Controls.Add(this.btnExamPercentage);
             this.pnlEmployees.Controls.Add(this.btnCourseCode);
             this.pnlEmployees.Controls.Add(this.btnCourse);
-            this.pnlEmployees.Controls.Add(this.btnTerm);
             this.pnlEmployees.Controls.Add(this.btnDepartment);
             this.pnlEmployees.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlEmployees.Location = new System.Drawing.Point(0, 156);
@@ -743,7 +744,7 @@ namespace SchoolManagementSystem
             this.btnOrNumber.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnOrNumber.IconSize = 10;
             this.btnOrNumber.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrNumber.Location = new System.Drawing.Point(0, 234);
+            this.btnOrNumber.Location = new System.Drawing.Point(0, 195);
             this.btnOrNumber.Name = "btnOrNumber";
             this.btnOrNumber.Padding = new System.Windows.Forms.Padding(25, 0, 17, 0);
             this.btnOrNumber.Size = new System.Drawing.Size(233, 39);
@@ -768,7 +769,7 @@ namespace SchoolManagementSystem
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.IconSize = 10;
             this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(0, 195);
+            this.iconButton2.Location = new System.Drawing.Point(0, 156);
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Padding = new System.Windows.Forms.Padding(25, 0, 17, 0);
             this.iconButton2.Size = new System.Drawing.Size(233, 39);
@@ -793,7 +794,7 @@ namespace SchoolManagementSystem
             this.btnExamPercentage.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnExamPercentage.IconSize = 10;
             this.btnExamPercentage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExamPercentage.Location = new System.Drawing.Point(0, 156);
+            this.btnExamPercentage.Location = new System.Drawing.Point(0, 117);
             this.btnExamPercentage.Name = "btnExamPercentage";
             this.btnExamPercentage.Padding = new System.Windows.Forms.Padding(25, 0, 17, 0);
             this.btnExamPercentage.Size = new System.Drawing.Size(233, 39);
@@ -818,7 +819,7 @@ namespace SchoolManagementSystem
             this.btnCourseCode.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCourseCode.IconSize = 10;
             this.btnCourseCode.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCourseCode.Location = new System.Drawing.Point(0, 117);
+            this.btnCourseCode.Location = new System.Drawing.Point(0, 78);
             this.btnCourseCode.Name = "btnCourseCode";
             this.btnCourseCode.Padding = new System.Windows.Forms.Padding(25, 0, 17, 0);
             this.btnCourseCode.Size = new System.Drawing.Size(233, 39);
@@ -843,7 +844,7 @@ namespace SchoolManagementSystem
             this.btnCourse.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCourse.IconSize = 10;
             this.btnCourse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCourse.Location = new System.Drawing.Point(0, 78);
+            this.btnCourse.Location = new System.Drawing.Point(0, 39);
             this.btnCourse.Name = "btnCourse";
             this.btnCourse.Padding = new System.Windows.Forms.Padding(25, 0, 17, 0);
             this.btnCourse.Size = new System.Drawing.Size(233, 39);
@@ -853,31 +854,6 @@ namespace SchoolManagementSystem
             this.btnCourse.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCourse.UseVisualStyleBackColor = false;
             this.btnCourse.Click += new System.EventHandler(this.btnCourse_Click);
-            // 
-            // btnTerm
-            // 
-            this.btnTerm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(34)))), ((int)(((byte)(49)))));
-            this.btnTerm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTerm.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnTerm.FlatAppearance.BorderSize = 0;
-            this.btnTerm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTerm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTerm.ForeColor = System.Drawing.Color.LightGray;
-            this.btnTerm.IconChar = FontAwesome.Sharp.IconChar.DotCircle;
-            this.btnTerm.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnTerm.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnTerm.IconSize = 10;
-            this.btnTerm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTerm.Location = new System.Drawing.Point(0, 39);
-            this.btnTerm.Name = "btnTerm";
-            this.btnTerm.Padding = new System.Windows.Forms.Padding(25, 0, 17, 0);
-            this.btnTerm.Size = new System.Drawing.Size(233, 39);
-            this.btnTerm.TabIndex = 33;
-            this.btnTerm.Text = "Department";
-            this.btnTerm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTerm.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnTerm.UseVisualStyleBackColor = false;
-            this.btnTerm.Click += new System.EventHandler(this.btnTerm_Click);
             // 
             // btnDepartment
             // 
@@ -1105,6 +1081,31 @@ namespace SchoolManagementSystem
             this.pnlShow.Size = new System.Drawing.Size(1108, 650);
             this.pnlShow.TabIndex = 4;
             // 
+            // btnTerm
+            // 
+            this.btnTerm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(34)))), ((int)(((byte)(49)))));
+            this.btnTerm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTerm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTerm.FlatAppearance.BorderSize = 0;
+            this.btnTerm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTerm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTerm.ForeColor = System.Drawing.Color.LightGray;
+            this.btnTerm.IconChar = FontAwesome.Sharp.IconChar.DotCircle;
+            this.btnTerm.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnTerm.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnTerm.IconSize = 10;
+            this.btnTerm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTerm.Location = new System.Drawing.Point(0, 234);
+            this.btnTerm.Name = "btnTerm";
+            this.btnTerm.Padding = new System.Windows.Forms.Padding(25, 0, 17, 0);
+            this.btnTerm.Size = new System.Drawing.Size(233, 39);
+            this.btnTerm.TabIndex = 41;
+            this.btnTerm.Text = "Department";
+            this.btnTerm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTerm.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTerm.UseVisualStyleBackColor = false;
+            this.btnTerm.Visible = false;
+            // 
             // finalDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1115,6 +1116,7 @@ namespace SchoolManagementSystem
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.pnlStretchs);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "finalDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "finalDashboard";
@@ -1171,7 +1173,6 @@ namespace SchoolManagementSystem
         private FontAwesome.Sharp.IconButton btnCourseCode;
         private FontAwesome.Sharp.IconButton btnCourse;
         private FontAwesome.Sharp.IconButton btnDepartment;
-        private FontAwesome.Sharp.IconButton btnTerm;
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton btnAcademicMngmt;
         private FontAwesome.Sharp.IconButton btnOrNumber;
@@ -1183,5 +1184,6 @@ namespace SchoolManagementSystem
         private FontAwesome.Sharp.IconButton btnTeacherLoads;
         private FontAwesome.Sharp.IconButton btnStudentsSchedule;
         private FontAwesome.Sharp.IconButton btnEnrollment;
+        private FontAwesome.Sharp.IconButton btnTerm;
     }
 }

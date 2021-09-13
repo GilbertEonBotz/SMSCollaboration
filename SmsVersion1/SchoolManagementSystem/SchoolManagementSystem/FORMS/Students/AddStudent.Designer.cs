@@ -39,21 +39,48 @@ namespace SchoolManagementSystem
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtpLast = new System.Windows.Forms.DateTimePicker();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSchooLast = new System.Windows.Forms.TextBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.txtFatherOccupation = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.txtMotherOccupation = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.txtMotherMname = new System.Windows.Forms.TextBox();
             this.txtFatherMname = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.txtMotherFname = new System.Windows.Forms.TextBox();
             this.txtFatherFname = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
             this.txtMotherLname = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.txtFatherLname = new System.Windows.Forms.TextBox();
+            this.label45 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.txtHomeAddress = new System.Windows.Forms.TextBox();
@@ -108,39 +135,12 @@ namespace SchoolManagementSystem
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dtpLast = new System.Windows.Forms.DateTimePicker();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.txtSchooLast = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label50 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.panel11.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -324,6 +324,189 @@ namespace SchoolManagementSystem
             this.panel10.TabIndex = 26;
             this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
             // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.dateTimePicker1);
+            this.panel11.Controls.Add(this.dateTimePicker2);
+            this.panel11.Controls.Add(this.dtpLast);
+            this.panel11.Controls.Add(this.label44);
+            this.panel11.Controls.Add(this.label13);
+            this.panel11.Controls.Add(this.label39);
+            this.panel11.Controls.Add(this.label40);
+            this.panel11.Controls.Add(this.label5);
+            this.panel11.Controls.Add(this.label38);
+            this.panel11.Controls.Add(this.textBox5);
+            this.panel11.Controls.Add(this.textBox3);
+            this.panel11.Controls.Add(this.textBox1);
+            this.panel11.Controls.Add(this.textBox4);
+            this.panel11.Controls.Add(this.textBox2);
+            this.panel11.Controls.Add(this.txtSchooLast);
+            this.panel11.Location = new System.Drawing.Point(7, 1418);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(419, 334);
+            this.panel11.TabIndex = 40;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dateTimePicker1.CustomFormat = "YYYY";
+            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(139, 259);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(269, 27);
+            this.dateTimePicker1.TabIndex = 45;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dateTimePicker2.CustomFormat = "YYYY";
+            this.dateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker2.Location = new System.Drawing.Point(139, 43);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(269, 27);
+            this.dateTimePicker2.TabIndex = 46;
+            // 
+            // dtpLast
+            // 
+            this.dtpLast.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.dtpLast.CustomFormat = "YYYY";
+            this.dtpLast.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpLast.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpLast.Location = new System.Drawing.Point(139, 152);
+            this.dtpLast.Name = "dtpLast";
+            this.dtpLast.Size = new System.Drawing.Size(269, 27);
+            this.dtpLast.TabIndex = 47;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(12, 39);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(66, 34);
+            this.label44.TabIndex = 48;
+            this.label44.Text = "Date Last \r\nAttended";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(12, 256);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(66, 34);
+            this.label13.TabIndex = 49;
+            this.label13.Text = "Date Last \r\nAttended";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(12, 148);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(66, 34);
+            this.label39.TabIndex = 50;
+            this.label39.Text = "Date Last \r\nAttended";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(15, 9);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(52, 17);
+            this.label40.TabIndex = 51;
+            this.label40.Text = "College";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(11, 227);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(115, 17);
+            this.label5.TabIndex = 52;
+            this.label5.Text = "Elementary School";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(11, 121);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(119, 17);
+            this.label38.TabIndex = 53;
+            this.label38.Text = "Senior High School";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(139, 79);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(269, 27);
+            this.textBox5.TabIndex = 39;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(139, 295);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(269, 27);
+            this.textBox3.TabIndex = 40;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(139, 188);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(269, 27);
+            this.textBox1.TabIndex = 41;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(139, 7);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(269, 27);
+            this.textBox4.TabIndex = 42;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(139, 222);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(269, 27);
+            this.textBox2.TabIndex = 43;
+            // 
+            // txtSchooLast
+            // 
+            this.txtSchooLast.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSchooLast.Location = new System.Drawing.Point(139, 116);
+            this.txtSchooLast.Name = "txtSchooLast";
+            this.txtSchooLast.Size = new System.Drawing.Size(269, 27);
+            this.txtSchooLast.TabIndex = 44;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Location = new System.Drawing.Point(4, 1343);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(74, 17);
+            this.label50.TabIndex = 39;
+            this.label50.Text = "Occupation";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(4, 1308);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(56, 17);
+            this.label49.TabIndex = 39;
+            this.label49.Text = "Address";
+            // 
             // label36
             // 
             this.label36.AutoSize = true;
@@ -344,6 +527,16 @@ namespace SchoolManagementSystem
             this.label31.TabIndex = 39;
             this.label31.Text = "Occupation";
             // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Location = new System.Drawing.Point(4, 1241);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(71, 17);
+            this.label48.TabIndex = 39;
+            this.label48.Text = "First Name";
+            // 
             // label35
             // 
             this.label35.AutoSize = true;
@@ -363,6 +556,16 @@ namespace SchoolManagementSystem
             this.label29.Size = new System.Drawing.Size(71, 17);
             this.label29.TabIndex = 39;
             this.label29.Text = "First Name";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(2, 1170);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(166, 21);
+            this.label47.TabIndex = 38;
+            this.label47.Text = "Guardian Information";
             // 
             // label34
             // 
@@ -392,6 +595,22 @@ namespace SchoolManagementSystem
             this.txtFatherOccupation.Size = new System.Drawing.Size(269, 27);
             this.txtFatherOccupation.TabIndex = 20;
             // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(132, 1341);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(269, 27);
+            this.textBox10.TabIndex = 24;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(132, 1306);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(269, 27);
+            this.textBox9.TabIndex = 24;
+            // 
             // txtMotherOccupation
             // 
             this.txtMotherOccupation.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -399,6 +618,14 @@ namespace SchoolManagementSystem
             this.txtMotherOccupation.Name = "txtMotherOccupation";
             this.txtMotherOccupation.Size = new System.Drawing.Size(269, 27);
             this.txtMotherOccupation.TabIndex = 24;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(132, 1274);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(269, 27);
+            this.textBox8.TabIndex = 23;
             // 
             // txtMotherMname
             // 
@@ -416,6 +643,14 @@ namespace SchoolManagementSystem
             this.txtFatherMname.Size = new System.Drawing.Size(269, 27);
             this.txtFatherMname.TabIndex = 19;
             // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(132, 1241);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(269, 27);
+            this.textBox7.TabIndex = 22;
+            // 
             // txtMotherFname
             // 
             this.txtMotherFname.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -431,6 +666,24 @@ namespace SchoolManagementSystem
             this.txtFatherFname.Name = "txtFatherFname";
             this.txtFatherFname.Size = new System.Drawing.Size(269, 27);
             this.txtFatherFname.TabIndex = 18;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(132, 1209);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(269, 27);
+            this.textBox6.TabIndex = 21;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(4, 1275);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(88, 17);
+            this.label46.TabIndex = 36;
+            this.label46.Text = "Middle Name";
             // 
             // txtMotherLname
             // 
@@ -457,6 +710,16 @@ namespace SchoolManagementSystem
             this.txtFatherLname.Name = "txtFatherLname";
             this.txtFatherLname.Size = new System.Drawing.Size(269, 27);
             this.txtFatherLname.TabIndex = 17;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(4, 1209);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(70, 17);
+            this.label45.TabIndex = 36;
+            this.label45.Text = "Last Name";
             // 
             // label30
             // 
@@ -1047,269 +1310,6 @@ namespace SchoolManagementSystem
             this.iconButton1.UseVisualStyleBackColor = false;
             this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.dateTimePicker1);
-            this.panel11.Controls.Add(this.dateTimePicker2);
-            this.panel11.Controls.Add(this.dtpLast);
-            this.panel11.Controls.Add(this.label44);
-            this.panel11.Controls.Add(this.label13);
-            this.panel11.Controls.Add(this.label39);
-            this.panel11.Controls.Add(this.label40);
-            this.panel11.Controls.Add(this.label5);
-            this.panel11.Controls.Add(this.label38);
-            this.panel11.Controls.Add(this.textBox5);
-            this.panel11.Controls.Add(this.textBox3);
-            this.panel11.Controls.Add(this.textBox1);
-            this.panel11.Controls.Add(this.textBox4);
-            this.panel11.Controls.Add(this.textBox2);
-            this.panel11.Controls.Add(this.txtSchooLast);
-            this.panel11.Location = new System.Drawing.Point(7, 1418);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(419, 334);
-            this.panel11.TabIndex = 40;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.dateTimePicker1.CustomFormat = "YYYY";
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(139, 259);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(269, 27);
-            this.dateTimePicker1.TabIndex = 45;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.dateTimePicker2.CustomFormat = "YYYY";
-            this.dateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(139, 43);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(269, 27);
-            this.dateTimePicker2.TabIndex = 46;
-            // 
-            // dtpLast
-            // 
-            this.dtpLast.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.dtpLast.CustomFormat = "YYYY";
-            this.dtpLast.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpLast.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpLast.Location = new System.Drawing.Point(139, 152);
-            this.dtpLast.Name = "dtpLast";
-            this.dtpLast.Size = new System.Drawing.Size(269, 27);
-            this.dtpLast.TabIndex = 47;
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(12, 39);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(66, 34);
-            this.label44.TabIndex = 48;
-            this.label44.Text = "Date Last \r\nAttended";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(12, 256);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(66, 34);
-            this.label13.TabIndex = 49;
-            this.label13.Text = "Date Last \r\nAttended";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(12, 148);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(66, 34);
-            this.label39.TabIndex = 50;
-            this.label39.Text = "Date Last \r\nAttended";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(15, 9);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(52, 17);
-            this.label40.TabIndex = 51;
-            this.label40.Text = "College";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(11, 227);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 17);
-            this.label5.TabIndex = 52;
-            this.label5.Text = "Elementary School";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(11, 121);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(119, 17);
-            this.label38.TabIndex = 53;
-            this.label38.Text = "Senior High School";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(139, 79);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(269, 27);
-            this.textBox5.TabIndex = 39;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(139, 295);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(269, 27);
-            this.textBox3.TabIndex = 40;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(139, 188);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(269, 27);
-            this.textBox1.TabIndex = 41;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(139, 7);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(269, 27);
-            this.textBox4.TabIndex = 42;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(139, 222);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(269, 27);
-            this.textBox2.TabIndex = 43;
-            // 
-            // txtSchooLast
-            // 
-            this.txtSchooLast.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSchooLast.Location = new System.Drawing.Point(139, 116);
-            this.txtSchooLast.Name = "txtSchooLast";
-            this.txtSchooLast.Size = new System.Drawing.Size(269, 27);
-            this.txtSchooLast.TabIndex = 44;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(4, 1209);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(70, 17);
-            this.label45.TabIndex = 36;
-            this.label45.Text = "Last Name";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(4, 1275);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(88, 17);
-            this.label46.TabIndex = 36;
-            this.label46.Text = "Middle Name";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(132, 1209);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(269, 27);
-            this.textBox6.TabIndex = 21;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(132, 1241);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(269, 27);
-            this.textBox7.TabIndex = 22;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(132, 1274);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(269, 27);
-            this.textBox8.TabIndex = 23;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(132, 1306);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(269, 27);
-            this.textBox9.TabIndex = 24;
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(2, 1170);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(166, 21);
-            this.label47.TabIndex = 38;
-            this.label47.Text = "Guardian Information";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(4, 1241);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(71, 17);
-            this.label48.TabIndex = 39;
-            this.label48.Text = "First Name";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(4, 1308);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(56, 17);
-            this.label49.TabIndex = 39;
-            this.label49.Text = "Address";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(132, 1341);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(269, 27);
-            this.textBox10.TabIndex = 24;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(4, 1343);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(74, 17);
-            this.label50.TabIndex = 39;
-            this.label50.Text = "Occupation";
-            // 
             // AddStudent
             // 
             this.AcceptButton = this.btnAddStudent;
@@ -1331,7 +1331,6 @@ namespace SchoolManagementSystem
             this.Location = new System.Drawing.Point(500, 100);
             this.Name = "AddStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add Student";
             this.Load += new System.EventHandler(this.AddStudent_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.AddStudent_KeyDown);
             this.panel1.ResumeLayout(false);
@@ -1340,10 +1339,10 @@ namespace SchoolManagementSystem
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }

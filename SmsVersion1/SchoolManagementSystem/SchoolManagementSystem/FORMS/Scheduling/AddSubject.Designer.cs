@@ -187,7 +187,6 @@ namespace SchoolManagementSystem
             this.txtLabprice.Size = new System.Drawing.Size(118, 27);
             this.txtLabprice.TabIndex = 8;
             this.txtLabprice.TabStop = false;
-            this.txtLabprice.Visible = false;
             this.txtLabprice.TextChanged += new System.EventHandler(this.txtLabprice_TextChanged);
             this.txtLabprice.Enter += new System.EventHandler(this.txtLabprice_Enter);
             this.txtLabprice.Leave += new System.EventHandler(this.txtLabprice_Leave);
@@ -201,7 +200,6 @@ namespace SchoolManagementSystem
             this.txtLecPrice.Size = new System.Drawing.Size(118, 27);
             this.txtLecPrice.TabIndex = 6;
             this.txtLecPrice.TabStop = false;
-            this.txtLecPrice.Visible = false;
             this.txtLecPrice.TextChanged += new System.EventHandler(this.txtLecPrice_TextChanged);
             this.txtLecPrice.Enter += new System.EventHandler(this.txtLecPrice_Enter);
             this.txtLecPrice.Leave += new System.EventHandler(this.txtLecPrice_Leave);
@@ -421,7 +419,6 @@ namespace SchoolManagementSystem
             this.lblLectotal.Size = new System.Drawing.Size(18, 20);
             this.lblLectotal.TabIndex = 17;
             this.lblLectotal.Text = "0";
-            this.lblLectotal.Visible = false;
             // 
             // lblabTotal
             // 
@@ -433,7 +430,6 @@ namespace SchoolManagementSystem
             this.lblabTotal.Size = new System.Drawing.Size(18, 20);
             this.lblabTotal.TabIndex = 16;
             this.lblabTotal.Text = "0";
-            this.lblabTotal.Visible = false;
             // 
             // label11
             // 
