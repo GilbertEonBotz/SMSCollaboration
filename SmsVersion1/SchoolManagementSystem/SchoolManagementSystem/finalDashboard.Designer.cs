@@ -1104,6 +1104,7 @@ namespace SchoolManagementSystem
             this.pnlShow.Name = "pnlShow";
             this.pnlShow.Size = new System.Drawing.Size(1108, 650);
             this.pnlShow.TabIndex = 4;
+            this.pnlShow.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlShow_Paint);
             // 
             // finalDashboard
             // 
@@ -1138,7 +1139,6 @@ namespace SchoolManagementSystem
         private System.Windows.Forms.Panel pnlStretchs;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
-        public System.Windows.Forms.Panel pnlShow;
         private System.Windows.Forms.Panel panel2;
         private FontAwesome.Sharp.IconButton btnSignout;
         public System.Windows.Forms.Label label1;
@@ -1183,5 +1183,6 @@ namespace SchoolManagementSystem
         private FontAwesome.Sharp.IconButton btnTeacherLoads;
         private FontAwesome.Sharp.IconButton btnStudentsSchedule;
         private FontAwesome.Sharp.IconButton btnEnrollment;
+        public System.Windows.Forms.Panel pnlShow;
     }
 }

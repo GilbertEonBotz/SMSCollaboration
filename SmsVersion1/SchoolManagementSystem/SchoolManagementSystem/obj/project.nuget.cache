@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PfARHQ50zRSabvZJraRHfDU+Jt3XO8CcS6eWOqBaODzpyN4XQqQaX+GOhuLEnp7Tw1NxXnMOrArhjub2r2nqfg==",
+  "dgSpecHash": "Vtz0btlCuc2maDJfCQ/bLECwj3PI2a1YeSm8k40ZJRGdwkASYRbCSzk9UnlfOp3cnMs3wz2Llu5UFliSjfLdbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\NewCollab\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eonbotz Randel\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
     "C:\\Users\\Eonbotz Randel\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
@@ -25,6 +25,12 @@
     "C:\\Users\\Eonbotz Randel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\NewCollab\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1603",
       "level": "Warning",
