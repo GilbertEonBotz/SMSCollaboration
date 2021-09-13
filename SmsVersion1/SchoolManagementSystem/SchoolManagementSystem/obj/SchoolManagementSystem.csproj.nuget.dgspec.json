@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
+    "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
   },
   "projects": {
-    "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {
+    "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
         "projectName": "SchoolManagementSystem",
-        "projectPath": "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\EonBotz\\.nuget\\packages\\",
-        "outputPath": "\\\\YOBB\\Users\\Public\\9.11.7\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+        "projectPath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\Eonbotz Randel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\EonBotz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eonbotz Randel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
