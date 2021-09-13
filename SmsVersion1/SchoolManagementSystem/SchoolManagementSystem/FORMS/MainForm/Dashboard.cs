@@ -64,5 +64,15 @@ namespace SchoolManagementSystem
         {
 
         }
+
+        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

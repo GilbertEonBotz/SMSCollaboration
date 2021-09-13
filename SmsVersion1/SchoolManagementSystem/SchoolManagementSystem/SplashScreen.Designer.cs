@@ -64,7 +64,7 @@ namespace SchoolManagementSystem
             this.progressBar1.Location = new System.Drawing.Point(12, 379);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.progressBar1.Size = new System.Drawing.Size(776, 43);
+            this.progressBar1.Size = new System.Drawing.Size(776, 33);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 5;
             // 
@@ -77,7 +77,7 @@ namespace SchoolManagementSystem
             this.lblLoading.AutoSize = true;
             this.lblLoading.BackColor = System.Drawing.Color.Transparent;
             this.lblLoading.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLoading.Location = new System.Drawing.Point(310, 431);
+            this.lblLoading.Location = new System.Drawing.Point(309, 415);
             this.lblLoading.Name = "lblLoading";
             this.lblLoading.Size = new System.Drawing.Size(195, 25);
             this.lblLoading.TabIndex = 4;
@@ -99,7 +99,7 @@ namespace SchoolManagementSystem
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 470);
+            this.ClientSize = new System.Drawing.Size(800, 451);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblLoading);
             this.Controls.Add(this.label1);
