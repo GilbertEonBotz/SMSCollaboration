@@ -1,6 +1,16 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c973bce2313084d8df1760d748fdf99627c0666a
+>>>>>>> d3df07b4a53b04882067366caa5f6d664846e988
+>>>>>>> 0203963141c24e8a5f4128c61a5814d5e3411404
     "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
   },
   "projects": {
@@ -12,6 +22,28 @@
         "projectPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
         "packagesPath": "C:\\Users\\EonBotz\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+        "projectName": "SchoolManagementSystem",
+        "projectPath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\Eonbotz Randel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+>>>>>>> origin/Randel
+>>>>>>> c973bce2313084d8df1760d748fdf99627c0666a
+>>>>>>> d3df07b4a53b04882067366caa5f6d664846e988
+>>>>>>> 0203963141c24e8a5f4128c61a5814d5e3411404
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EonBotz\\AppData\\Roaming\\NuGet\\NuGet.Config",
