@@ -80,5 +80,10 @@ namespace SchoolManagementSystem
         {
             this.Close();
         }
+
+        private void pnlEJ_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

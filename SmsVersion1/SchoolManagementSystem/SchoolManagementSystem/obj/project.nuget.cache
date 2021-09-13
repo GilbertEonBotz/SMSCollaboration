@@ -10,11 +10,17 @@
   "success": true,
   "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
 =======
+<<<<<<< HEAD
+  "dgSpecHash": "1xuayjc9gA6TGXISVIbnw+9VNT7ptPvFuu3I7XU50RMBof+exQqXexp3TaPgenUJ2gYgeWAjy7bg+94/AgbiXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+=======
   "dgSpecHash": "PfARHQ50zRSabvZJraRHfDU+Jt3XO8CcS6eWOqBaODzpyN4XQqQaX+GOhuLEnp7Tw1NxXnMOrArhjub2r2nqfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
 >>>>>>> origin/Randel
 >>>>>>> c973bce2313084d8df1760d748fdf99627c0666a
+>>>>>>> d3df07b4a53b04882067366caa5f6d664846e988
   "expectedPackageFiles": [
     "C:\\Users\\EonBotz\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
     "C:\\Users\\EonBotz\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",

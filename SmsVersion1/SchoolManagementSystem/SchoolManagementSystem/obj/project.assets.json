@@ -1242,12 +1242,17 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> c973bce2313084d8df1760d748fdf99627c0666a
+>>>>>>> d3df07b4a53b04882067366caa5f6d664846e988
       "projectUniqueName": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
       "projectName": "SchoolManagementSystem",
       "projectPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
       "packagesPath": "C:\\Users\\EonBotz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 =======
@@ -1258,6 +1263,7 @@
       "outputPath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
 >>>>>>> origin/Randel
 >>>>>>> c973bce2313084d8df1760d748fdf99627c0666a
+>>>>>>> d3df07b4a53b04882067366caa5f6d664846e988
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EonBotz\\AppData\\Roaming\\NuGet\\NuGet.Config",
