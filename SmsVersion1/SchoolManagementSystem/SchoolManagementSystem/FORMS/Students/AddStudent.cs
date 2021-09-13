@@ -85,5 +85,10 @@ namespace SchoolManagementSystem
         {
 
         }
+
+        private void btnAddStudent_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,7 +30,6 @@ namespace SchoolManagementSystem
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.ckbOldStudent = new System.Windows.Forms.CheckBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.txtStudentID = new System.Windows.Forms.TextBox();
@@ -78,6 +77,7 @@ namespace SchoolManagementSystem
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.pnlSH = new System.Windows.Forms.Panel();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.ckbSPicture = new System.Windows.Forms.CheckBox();
             this.ckbSPSA = new System.Windows.Forms.CheckBox();
             this.ckbSGoodMoral = new System.Windows.Forms.CheckBox();
@@ -85,6 +85,8 @@ namespace SchoolManagementSystem
             this.label76 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
             this.pnlEJ = new System.Windows.Forms.Panel();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.ckbEJPicture = new System.Windows.Forms.CheckBox();
             this.ckbEJPSA = new System.Windows.Forms.CheckBox();
             this.ckbEJGoodMoral = new System.Windows.Forms.CheckBox();
@@ -158,9 +160,7 @@ namespace SchoolManagementSystem
             this.btnExit = new FontAwesome.Sharp.IconButton();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.cmbStudentType = new System.Windows.Forms.ComboBox();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.panel11.SuspendLayout();
@@ -173,17 +173,6 @@ namespace SchoolManagementSystem
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // ckbOldStudent
-            // 
-            this.ckbOldStudent.AutoSize = true;
-            this.ckbOldStudent.Location = new System.Drawing.Point(292, 35);
-            this.ckbOldStudent.Name = "ckbOldStudent";
-            this.ckbOldStudent.Size = new System.Drawing.Size(88, 17);
-            this.ckbOldStudent.TabIndex = 49;
-            this.ckbOldStudent.Text = "OLD Student";
-            this.ckbOldStudent.UseVisualStyleBackColor = true;
-            this.ckbOldStudent.CheckedChanged += new System.EventHandler(this.ckbOldStudent_CheckedChanged);
-            // 
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -194,9 +183,9 @@ namespace SchoolManagementSystem
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.ckbOldStudent);
             this.panel8.Controls.Add(this.txtStudentID);
             this.panel8.Controls.Add(this.txtEmail);
+            this.panel8.Controls.Add(this.cmbStudentType);
             this.panel8.Controls.Add(this.cbSuffix);
             this.panel8.Controls.Add(this.label83);
             this.panel8.Controls.Add(this.label84);
@@ -673,6 +662,15 @@ namespace SchoolManagementSystem
             this.pnlSH.Size = new System.Drawing.Size(387, 121);
             this.pnlSH.TabIndex = 60;
             // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(354, 98);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(15, 14);
+            this.checkBox7.TabIndex = 63;
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
             // ckbSPicture
             // 
             this.ckbSPicture.AutoSize = true;
@@ -746,6 +744,24 @@ namespace SchoolManagementSystem
             this.pnlEJ.Size = new System.Drawing.Size(388, 131);
             this.pnlEJ.TabIndex = 59;
             this.pnlEJ.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlEJ_Paint);
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(355, 105);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(15, 14);
+            this.checkBox6.TabIndex = 59;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(355, 88);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 58;
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // ckbEJPicture
             // 
@@ -1476,6 +1492,7 @@ namespace SchoolManagementSystem
             this.btnAddStudent.TabIndex = 44;
             this.btnAddStudent.Text = "Save";
             this.btnAddStudent.UseVisualStyleBackColor = false;
+            this.btnAddStudent.Click += new System.EventHandler(this.btnAddStudent_Click);
             // 
             // panel5
             // 
@@ -1573,32 +1590,20 @@ namespace SchoolManagementSystem
             this.panel1.Size = new System.Drawing.Size(898, 42);
             this.panel1.TabIndex = 40;
             // 
-            // checkBox1
+            // cmbStudentType
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(355, 88);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 58;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(355, 105);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
-            this.checkBox6.TabIndex = 59;
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(354, 98);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(15, 14);
-            this.checkBox7.TabIndex = 63;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.cmbStudentType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbStudentType.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbStudentType.FormattingEnabled = true;
+            this.cmbStudentType.Items.AddRange(new object[] {
+            "New",
+            "Old",
+            "Transferee",
+            "Returning"});
+            this.cmbStudentType.Location = new System.Drawing.Point(292, 26);
+            this.cmbStudentType.Name = "cmbStudentType";
+            this.cmbStudentType.Size = new System.Drawing.Size(110, 28);
+            this.cmbStudentType.TabIndex = 33;
             // 
             // AddStudent
             // 
@@ -1643,8 +1648,6 @@ namespace SchoolManagementSystem
         }
 
         #endregion
-
-        private System.Windows.Forms.CheckBox ckbOldStudent;
         public System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Panel panel8;
         public System.Windows.Forms.TextBox txtStudentID;
@@ -1775,5 +1778,6 @@ namespace SchoolManagementSystem
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox6;
         private System.Windows.Forms.CheckBox checkBox1;
+        public System.Windows.Forms.ComboBox cmbStudentType;
     }
 }
