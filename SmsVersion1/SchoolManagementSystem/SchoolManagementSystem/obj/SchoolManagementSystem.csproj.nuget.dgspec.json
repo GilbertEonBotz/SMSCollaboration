@@ -1,6 +1,10 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c973bce2313084d8df1760d748fdf99627c0666a
     "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
   },
   "projects": {
@@ -12,6 +16,22 @@
         "projectPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
         "packagesPath": "C:\\Users\\EonBotz\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\EonBotz\\Desktop\\Gilbert\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+<<<<<<< HEAD
+=======
+=======
+    "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+        "projectName": "SchoolManagementSystem",
+        "projectPath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\Eonbotz Randel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eonbotz Randel\\Desktop\\Randel\\Collaboration\\SMS\\SmsVersion1\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+>>>>>>> origin/Randel
+>>>>>>> c973bce2313084d8df1760d748fdf99627c0666a
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EonBotz\\AppData\\Roaming\\NuGet\\NuGet.Config",
