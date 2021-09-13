@@ -361,3 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+*.exe
+*.exe
+SmsVersion1/SchoolManagementSystem/SchoolManagementSystem/bin/Debug/net48/SchoolManagementSystem.pdb
+SmsVersion1/SchoolManagementSystem/SchoolManagementSystem/obj/Debug/net48/SchoolManagementSystem.csproj.AssemblyReference.cache
+SmsVersion1/SchoolManagementSystem/SchoolManagementSystem/obj/Debug/net48/SchoolManagementSystem.exe
+*.pdb
+*.json
+*.cache
+*.json
+*.exe
+*.pdb
